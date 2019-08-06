@@ -9,7 +9,7 @@ export default class MovieItem extends React.Component {
           className="card-img-top card-img--height"
           src={`https://image.tmdb.org/t/p/w500${item.backdrop_path ||
             item.poster_path}`}
-          alt=""
+          alt="'Film' + {item.title}"
         />
         <div className="card-body">
           <h6 className="card-title">{item.title}</h6>
