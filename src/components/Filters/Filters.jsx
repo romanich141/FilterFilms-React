@@ -31,6 +31,9 @@ export default class Filters extends React.Component {
             onChangePages={onChangePages}
             onResetFilters={onResetFilters}
           />
+          {/* {genres.map(item => {
+            <div>{item.name}</div>;
+          })} */}
         </div>
       </form>
     );
